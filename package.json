@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mezamic000/liri-node-app#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "mdash-node": "^1.0.1"
   }
 }

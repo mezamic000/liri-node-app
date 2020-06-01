@@ -1,0 +1,37 @@
+Get API Keys for Spotify, OMDB, and Bands in Town
+
+Bands in Town Event API 
+    - 'concert-this' command with <artist/band name here>
+    Output:
+    - Name of the venue
+    - Venue location
+    - Date of the Event using moment to format as 'MM/DD/YYY'
+
+Spotify API
+    - 'spotify-this-song' command with <song name here>
+    Output:
+    - Artist(s)
+    - Song name
+    - Preview link of song from Spotify
+    - Album that song is from
+    * If no song is provided then your program will default to "The Sign" by Ace of Base
+
+OMDB API
+    - 'movie-this' command with <movie name here>
+    Output:
+    - Title
+    - Year came out 
+    - IMDB rating
+    - Rotten Tomatoes rating
+    - Country movie was produced in
+    - Language of movie
+    - Plot
+    - Actors
+    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+
+Require fs Node package
+    - 'do-what-it-says' command
+    Output:
+    - It will execute the text inside of the random text file then use it to call one of LIRI's commands
+    - It should run the 'spotify-this-song' for "I Want it That Way'
+    - Edit text in random.txt to test out features for movie-this and concert-this
