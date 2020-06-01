@@ -4,7 +4,6 @@ Liri-Node-App
 
 This liri-node-app searches for Spotify songs, Bands in Town for concerts, and OMDB for movies. This helps users identify songs, find concerts, and info on movies.
 
-
 Instructions on how to run the app:
 (Note: You will need to run this app from the command line)
 
@@ -16,23 +15,27 @@ Instructions on how to run the app:
 
      - node liri.js spotify-this=song [song name]
 
+     ![](liri-songs.gif)
+
    - For concert info input:
 
      - node liri.js concert-this [artist/band name]
 
+     ![](liri-app-bot.gif)
+
    - For movie information input:
-     - node liri.js movie-this what about bob
 
+     - node liri.js movie-this [movie name]
 
+     ![](liri-movies.gif)
 
 Link to the deployed version of the app:
 https://github.com/mezamic000/liri-node-app
 
-
 Technologies used in the app:
-- axios 
+
+- axios
 - omdb
 - node-spotify-api
-
 
 This app was created by Michelle Meza.
