@@ -15,19 +15,19 @@ Instructions on how to run the app:
 
      - node liri.js spotify-this=song [song name]
 
-     ![](liri-songs.gif)
+     ![](demo-gifs/liri-songs.gif)
 
    - For concert info input:
 
      - node liri.js concert-this [artist/band name]
 
-     ![](liri-app-bot.gif)
+     ![](demo-gifs/liri-app-bot.gif)
 
    - For movie information input:
 
      - node liri.js movie-this [movie name]
 
-     ![](liri-movies.gif)
+     ![](demo-gifs/liri-movies.gif)
 
 Link to the deployed version of the app:
 https://github.com/mezamic000/liri-node-app
